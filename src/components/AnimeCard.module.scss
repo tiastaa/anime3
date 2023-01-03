@@ -1,0 +1,78 @@
+// @text=
+.card {
+    position: relative;
+    max-width: 16rem;
+min-width: 10rem;
+    border-radius: 3px;
+    background-color: rgba(62, 62, 62, 0.258);
+    padding: 1rem;
+    margin: 10px;
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+span{
+    color: white;
+    padding: 3px;
+
+}
+}
+.img_box{
+    position: relative;
+
+
+
+}
+.anime_img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+            &:hover{
+                border-radius: 40px;
+                background-color: black;
+            }
+}
+.tip_img{
+    width: 10%;
+    position: absolute;
+        top: 0px;
+        right: 0px;
+}
+.episodes{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: pink;
+
+
+}
+.score{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-color: pink;
+}
+
+// .anime-card-title {
+//     color: white;
+//     padding: 3px;
+// }
+
+// .anime-card-episodes {
+//     color: white;
+//     padding: 3px;
+// }
+
+// .anime-card-score {
+//     color: white;
+//     padding: 3px;
+// }
+
+// .anime-card-additional-info-box {
+//     display: flex;
+//     justify-content: space-around;
+
+// }
